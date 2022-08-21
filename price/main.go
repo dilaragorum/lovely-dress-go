@@ -8,9 +8,6 @@ import (
 	"strconv"
 )
 
-// price --> product ıd --> map key i --> int (product id sine denk gelecek)
-//                      --> map value ProductPrice
-
 var (
 	Prices = make(map[int]model.ItemPrice)
 )
